@@ -1,4 +1,4 @@
-import aboutImg from "../assets/AI_Model_2_bg.png";
+import aboutImg from "../assets/Hacker_1.png";
 import { ABOUT_TEXT } from "../constants/index.js";
 import {motion} from "framer-motion";
 const About = () => {
