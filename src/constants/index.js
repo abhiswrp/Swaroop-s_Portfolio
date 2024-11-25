@@ -2,7 +2,7 @@ import project1 from "../assets/projects/Web 3.0 Transact.jpg";
 // import project2 from "../assets/projects/RealEstate Marketplace.jpg";
 import project3 from "../assets/projects/GunGuardian_1.jpg";
 import project4 from "../assets/projects/Preserve Your Heart.jpg";
-import project5 from "../assets/projects/Hal_Jivi.jpg";
+import project5 from "../assets/projects/Hal_Jivi.png";
 // export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 export const HERO_CONTENT = 'As a passionate full stack developer with 1 year of hands-on experience, I specialize in crafting robust and scalable web applications. I have developed strong skills in front-end technologies like React, and back-end technologies such as Node.js, MySQL, and MongoDB. Additionally, I have experience in Blockchain, Web3, and Machine Learning. My goal is to leverage my growing expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.';
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With an year of professional experience, I have worked with a variety of technologies and participated in a National Level Hack-A-Thon. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
@@ -46,7 +46,7 @@ export const PROJECTS = [
     title: "Hal-Jivi",
     image: project5,
     link:"https://github.com/abhiswrp/Hal-Jivi",
-    description:"A Blockchain-based Web3 platform for the agricultural sector, "Hal Jivi" enables secure and transparent Minimum Support Price (MSP) calculations for farmers. Designed to support a vast number of agricultural stakeholders, the project aims to streamline the MSP calculation process while reducing pricing discrepancies by 30% through region-specific indexing and decentralized ledger technology.",
+    description:"A Blockchain-based Web3 platform for the agricultural sector, Hal Jivi enables secure and transparent Minimum Support Price (MSP) calculations for farmers. Designed to support a vast number of agricultural stakeholders, the project aims to streamline the MSP calculation process while reducing pricing discrepancies by 30% through region-specific indexing and decentralized ledger technology.",
     technologies: ["Blockchain", "Web 3.0", "React", "Solidity", "Polygon"],
   },
   {
