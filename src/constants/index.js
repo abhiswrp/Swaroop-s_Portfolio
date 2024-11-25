@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/Web 3.0 Transact.jpg";
-import project2 from "../assets/projects/RealEstate Marketplace.jpg";
+// import project2 from "../assets/projects/RealEstate Marketplace.jpg";
 import project3 from "../assets/projects/GunGuardian_1.jpg";
 import project4 from "../assets/projects/Preserve Your Heart.jpg";
 import project5 from "../assets/projects/Hal_Jivi.png";
