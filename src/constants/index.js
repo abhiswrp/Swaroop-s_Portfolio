@@ -32,12 +32,21 @@ export const PROJECTS = [
     description:"A Web 3.0 application using Solidity and MetaMask, showcasing decentralized technology principles. This project serves as a practical example of building a dApp, highlighting innovative Web 3.0 methodologies to enhance user engagement and security.",
     technologies: ["Blockchain", "Web 3.0", "React", "Solidity", "Ethereum", "MetaMask"],
   },
+  /*
   {
     title: "RealEstate Marketplace",
     image: project2,
     link:"https://github.com/abhiswrp/RealEstate-Marketplace",
     description:"A Blockchain based Web3 platform that enables secure and transparent property transactions. Designed to support up to 5,000 users, the project aims to streamline the buying and selling process while reducing transaction costs by 30% through decentralized ledger technology.",
     technologies: ["Blockchain", "Web 3.0", "React", "Solidity", "Polygon", "mySQL"],
+  },
+  */
+  {
+    title: "Hal-Jivi",
+    image: project5,
+    link:"https://github.com/abhiswrp/Hal-Jivi",
+    description:"A Blockchain-based Web3 platform for the agricultural sector, "Hal Jivi" enables secure and transparent Minimum Support Price (MSP) calculations for farmers. Designed to support a vast number of agricultural stakeholders, the project aims to streamline the MSP calculation process while reducing pricing discrepancies by 30% through region-specific indexing and decentralized ledger technology.",
+    technologies: ["Blockchain", "Web 3.0", "React", "Solidity", "Polygon"],
   },
   {
     title: "Gun Guardian",
