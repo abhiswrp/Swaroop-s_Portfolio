@@ -49,7 +49,7 @@ export const PROJECTS = [
     image: project2,
     link:"https://github.com/abhiswrp/Swaroop-s_Portfolio",
     link:"https://swaroop-s-portfolio.vercel.app",
-    description:"",
+    description:"A dynamic and visually appealing portfolio showcasing my projects and skills as a Full Stack Developer. Built using React for efficient and responsive UI, TailwindCSS for modern and customizable styling, and FramerMotion for smooth animations and interactive transitions. The portfolio demonstrates my expertise in creating seamless user experiences and is optimized for performance and accessibility.",
     technologies: ["React", "TailWindCSS", "Vite", "Vercel"],
   },
   {
