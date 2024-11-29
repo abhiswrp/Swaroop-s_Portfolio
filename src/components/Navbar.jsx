@@ -89,7 +89,7 @@ const Navbar = () => {
                     <SiHackerrank />
                 </a>
                 <a
-                    href=""
+                    href="https://drive.google.com/file/d/1pWQAF0quxUcMOQRd3kUZLS0FNoYRrFKD/view?usp=drive_link"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-red-500 transition-colors"
