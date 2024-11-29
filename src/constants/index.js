@@ -29,6 +29,7 @@ export const PROJECTS = [
     title: "Web 3.0 Transact",
     image: project1,
     link:"https://github.com/abhiswrp/Web-3.0-Transact",
+    link:"https://swaroop-s-transact.vercel.app",
     description:"A Web 3.0 application using Solidity and MetaMask, showcasing decentralized technology principles. This project serves as a practical example of building a dApp, highlighting innovative Web 3.0 methodologies to enhance user engagement and security.",
     technologies: ["Blockchain", "Web 3.0", "React", "Solidity", "Ethereum", "MetaMask"],
   },
