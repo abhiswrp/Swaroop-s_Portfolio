@@ -30,7 +30,7 @@ export const PROJECTS = [
   {
     title: "Web 3.0 Transact",
     image: project1,
-    link:"https://github.com/abhiswrp/Web-3.0-Transact",
+    // link:"https://github.com/abhiswrp/Web-3.0-Transact",
     link:"https://swaroop-s-transact.vercel.app",
     description:"A Web 3.0 application using Solidity and MetaMask, showcasing decentralized technology principles. This project serves as a practical example of building a dApp, highlighting innovative Web 3.0 methodologies to enhance user engagement and security.",
     technologies: ["Blockchain", "Web 3.0", "React", "Solidity", "Ethereum", "MetaMask"],
@@ -47,7 +47,7 @@ export const PROJECTS = [
   {
     title: "Swarooop's Portfolio",
     image: project2,
-    link:"https://github.com/abhiswrp/Swaroop-s_Portfolio",
+    // link:"https://github.com/abhiswrp/Swaroop-s_Portfolio",
     link:"https://swaroop-s-portfolio.vercel.app",
     description:"A dynamic and visually appealing portfolio showcasing my projects and skills as a Full Stack Developer. Built using React for efficient and responsive UI, TailwindCSS for modern and customizable styling, and FramerMotion for smooth animations and interactive transitions. The portfolio demonstrates my expertise in creating seamless user experiences and is optimized for performance and accessibility.",
     technologies: ["React", "TailWindCSS", "Vite", "Vercel"],
