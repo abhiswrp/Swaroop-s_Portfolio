@@ -44,10 +44,10 @@ import { SiGeeksforgeeks, SiHackerrank } from "react-icons/si";
 const Navbar = () => {
     return (
         <nav className="mb-20 flex flex-col lg:flex-row items-center justify-between py-6">
-            <div className="flex flex-shrink-0 items-center">
+            <div className="flex flex-shrink-0 items-center lg:mr-7">
                 <img className="w-32 lg:w-40" src={logo} alt="logo" />
             </div>
-            <div className="mt-4 lg:mt-0 flex items-center justify-center gap-6 text-3xl">
+            <div className="mt-4 lg:mt-0 flex items-center justify-center gap-7 text-3xl">
                 <a
                     href="https://www.linkedin.com/in/abhishek-swaroop-40a7a2224/"
                     target="_blank"

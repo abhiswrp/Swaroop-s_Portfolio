@@ -15,8 +15,8 @@ const container = (delay) => ({
 const Hero = () => {
     return (
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-            <div className="flex flex-col lg:flex-row">
-                <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start">
+            <div className="flex flex-col lg:flex-row lg:gap-32">
+                <div className="w-full lg:w-7/12 flex flex-col items-center lg:items-start lg:pl-8">
                     <motion.h1
                         variants={container(0)}
                         initial="hidden"
@@ -33,14 +33,14 @@ const Hero = () => {
                         animate="visible"
                         className="my-2 max-w-xl py-4 font-light tracking-tighter justify-start">{HERO_CONTENT}</motion.p>
                 </div>
-                <div className="w-full lg:w-1/2 lg:p-8 flex justify-center">
+                <div className="w-full lg:w-5/12 lg:p-8 flex justify-center">
                     <motion.img
-                        initial={{ x: 350, y: 0, opacity: 0, width: 500 }}
-                        animate={{ x: 0, y: 0, opacity: 1, width: 500 }}
+                        initial={{ x: 350, y: 0, opacity: 0, width: 300 }}
+                        animate={{ x: 0, y: 0, opacity: 1, width: 350 }}
                         transition={{ duration: 1, delay: 1.2 }}
                         src={profilePic}
                         alt="Abhishek Swaroop"
-                        className="w-3/4 max-w-md lg:max-w-lg"
+                        className="w-3/4 max-w-md lg:max-w-lg rounded-2xl"
                     />
                 </div>
             </div>

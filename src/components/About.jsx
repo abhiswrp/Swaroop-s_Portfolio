@@ -1,5 +1,5 @@
-import aboutImg from "../assets/Hacker_1.png"; // Ensure the image exists at the path
-import { ABOUT_TEXT } from "../constants/index.js"; // Ensure ABOUT_TEXT is properly defined and imported
+import aboutImg from "../assets/Hacker_1.png";
+import { ABOUT_TEXT } from "../constants/index.js";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -13,22 +13,22 @@ const About = () => {
       >
         About <span className="text-neutral-500">Me</span>
       </motion.h1>
-      <div className="flex flex-wrap">
+      <div className="flex flex-col lg:flex-row lg:gap-64">
         <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0, width: 500 }}
+          initial={{ opacity: 0, x: -100, width: 500 }}
           transition={{ duration: 0.5 }}
-          className="w-full lg:w-1/2 lg:p-8"
+          className="w-full lg:w-7/12"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="about" />
+            <img className="rounded-2xl w-3/4 max-w-md lg:max-w-lg" src={aboutImg} alt="about" />
           </div>
         </motion.div>
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.5 }}
-          className="w-full lg:w-1/2"
+          className="w-full lg:w-5/12 lg:pl-8"
         >
           <div className="flex justify-center lg:justify-start">
             <p className="my-2 max-w-xl py-6">
