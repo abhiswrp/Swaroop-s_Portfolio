@@ -5,6 +5,8 @@ import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Copyright from "./components/Copyright";
+
 const App=()=>{
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selction: black selection:text-cyan-900">
@@ -19,6 +21,7 @@ const App=()=>{
         <Experience/>
         <Projects/>
         <Contact/>
+        <Copyright/>
       </div>
     </div>
   );
