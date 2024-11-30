@@ -8,6 +8,7 @@ import {FaProjectDiagram} from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
 import {motion} from "framer-motion";
 const iconVariants = (duration) => ({
     initial:{y:-10},
@@ -50,7 +51,7 @@ const Technologies = () => {
                 initial="initial"
                 animate="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaHtml5 className="text-7xl"/>
+                <FaHtml5 className="text-7xl text-gray-700"/>
             </motion.div>
             <motion.div
                 variants={iconVariants(5)}
@@ -65,6 +66,13 @@ const Technologies = () => {
                 animate="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaNodeJs className="text-7xl text-red-700"/>
+            </motion.div>
+            <motion.div
+                variants={iconVariants(8)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                <FaGitAlt className="text-7xl text-cyan-700"/>
             </motion.div>
             <motion.div
                 variants={iconVariants(6)}
