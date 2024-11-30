@@ -22,7 +22,7 @@ const Copyright = () => {
                         © {currentYear} Abhishek Swaroop. All rights reserved.
                     </p>
                     <p className="text-neutral-400">
-                        Designed & Developed using React, TailwindCSS, and Framer Motion.
+                        Designed & Developed using React, TailwindCSS and Framer Motion.
                     </p>
                     <p className="text-neutral-400">
                         Passionate about creating impactful web experiences.
