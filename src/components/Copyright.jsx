@@ -8,14 +8,14 @@ const Copyright = () => {
         <div className="py-8 bg-neutral-950 text-center border-t border-neutral-800">
             <motion.div
                 whileInView={{ opacity: 1, y: 0 }}
-                initial={{ opacity: 0, y: 50 }}
+                initial={{ opacity: 0, y: 20 }}
                 transition={{ duration: 0.5 }}
                 className="text-neutral-300 flex flex-col items-center gap-6 lg:gap-12"
             >
                 <img
                     src={emblem}
                     alt="Emblem"
-                    className="w-32 h-auto lg:w-40 lg:h-auto"
+                    className="w-40 h-auto lg:w-96 lg:h-auto"
                 />
                 <div className="flex flex-col lg:flex-row items-center lg:justify-between gap-8 lg:gap-12 text-sm lg:text-base">
                     <p className="text-neutral-400">
