@@ -8,6 +8,14 @@ import project5 from "../assets/projects/Preserve Your Heart.jpg";
 export const HERO_CONTENT = 'I am a passionate front-end developer and freelancer with over a year of experience, specializing in building dynamic, user-friendly web interfaces using React. My expertise lies in creating visually appealing and responsive designs that elevate user experiences. As a freelancer, I have successfully delivered diverse projects, collaborating with clients to translate their ideas into impactful digital solutions. With additional skills in Blockchain, Web3, and Machine Learning, I bring innovation and creativity to every project, ensuring high-quality results that meet and exceed expectations.';
 export const ABOUT_TEXT = `I am a dedicated and adaptable full stack developer with a strong passion for crafting efficient and user-centric web applications. With one year of professional experience, I have honed my skills across diverse technologies and showcased my abilities by participating in a National Level Hackathon. My journey into web development was driven by a deep curiosity for understanding how things work, which has since transformed into a career rooted in continuous learning and tackling new challenges. I excel in collaborative settings, finding joy in solving intricate problems and delivering top-tier solutions. Beyond coding, I stay active, explore emerging technologies, and contribute to open-source projects to foster innovation and community growth.`;
 export const EXPERIENCES = [{
+        year: "2024 - 2025",
+        role: "Freelancer (Code Debugger)",
+        company: "Outlier",
+        link: "app.outlier.ai",
+        description: `As a Freelancer (Code Debugger) at Outlier, I have successfully worked on several projects, focusing on identifying and resolving complex code issues, optimizing performance, and ensuring the overall stability of applications. My role involved closely collaborating with development teams to troubleshoot, debug, and enhance existing codebases, ultimately improving the functionality and user experience of the products.`,
+        technologies: ["Java"],
+    },
+    {
         year: "2023 - 2023",
         role: "Android Developer Intern",
         company: "CodSoft",
