@@ -11,7 +11,7 @@ export const EXPERIENCES = [{
         year: "2024 - 2025",
         role: "Freelancer (Code Debugger)",
         company: "Outlier",
-        link: "outlier.ai",
+        link: "https://app.outlier.ai",
         description: `As a Freelancer (Code Debugger) at Outlier, I have successfully worked on several projects, focusing on identifying and resolving complex code issues, optimizing performance, and ensuring the overall stability of applications. My role involved closely collaborating with development teams to troubleshoot, debug, and enhance existing codebases, ultimately improving the functionality and user experience of the products.`,
         technologies: ["Java", "C++", "JavaScript"],
     },
