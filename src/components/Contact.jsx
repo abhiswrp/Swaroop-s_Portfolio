@@ -90,17 +90,16 @@
 
 // export default Contact;
 
-import { motion } from "framer-motion";
-import { useState } from "react";   
 
+
+import { motion } from "framer-motion";
+import { useState } from "react";
 const Contact = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [formData, setFormData] = useState({ name: "", email: "", message: "" });
-
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         const response = await fetch("https://formspree.io/f/xkgnpqbd", {
@@ -113,7 +112,6 @@ const Contact = () => {
             setFormData({ name: "", email: "", message: "" });
         }
     };
-
     return (
         <div className="border-b border-neutral-900 pb-20">
             <motion.h1
@@ -202,5 +200,4 @@ const Contact = () => {
         </div>
     );
 };
-
 export default Contact;
