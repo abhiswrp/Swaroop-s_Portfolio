@@ -202,6 +202,7 @@ const Contact = () => {
 };
 export default Contact;
 
+
 // import OpenAI from "openai";
 // const openai = new OpenAI({
 //   apiKey: "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",
