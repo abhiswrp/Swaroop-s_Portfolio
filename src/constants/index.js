@@ -4,10 +4,12 @@ import project2 from "../assets/projects/Swaroop's_Portfolio.jpg";
 import project3 from "../assets/projects/Hal_Jivi.jpg";
 import project4 from "../assets/projects/GunGuardian_1.jpg";
 import project5 from "../assets/projects/Preserve Your Heart.jpg";
+import Outlier from "../assets/projects/Outlier.jpg";
 // export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 export const HERO_CONTENT = 'I am a passionate front-end developer and freelancer with over a year of experience, specializing in building dynamic, user-friendly web interfaces using React. My expertise lies in creating visually appealing and responsive designs that elevate user experiences. As a freelancer, I have successfully delivered diverse projects, collaborating with clients to translate their ideas into impactful digital solutions. With additional skills in Blockchain, Web3, and Machine Learning, I bring innovation and creativity to every project, ensuring high-quality results that meet and exceed expectations.';
 export const ABOUT_TEXT = `I am a dedicated and adaptable full stack developer with a strong passion for crafting efficient and user-centric web applications. With one year of professional experience, I have honed my skills across diverse technologies and showcased my abilities by participating in a National Level Hackathon. My journey into web development was driven by a deep curiosity for understanding how things work, which has since transformed into a career rooted in continuous learning and tackling new challenges. I excel in collaborative settings, finding joy in solving intricate problems and delivering top-tier solutions. Beyond coding, I stay active, explore emerging technologies, and contribute to open-source projects to foster innovation and community growth.`;
 export const EXPERIENCES = [{
+        image: Outlier,
         year: "2024 - 2025",
         role: "Freelancer (Code Debugger)",
         company: "Outlier",
@@ -15,6 +17,7 @@ export const EXPERIENCES = [{
         description: `As a Freelancer (Code Debugger) at Outlier, I have successfully worked on several projects, focusing on identifying and resolving complex code issues, optimizing performance, and ensuring the overall stability of applications. My role involved closely collaborating with development teams to troubleshoot, debug, and enhance existing codebases, ultimately improving the functionality and user experience of the products.`,
         technologies: ["Java", "C++", "JavaScript"],
     },
+    /*
     {
         year: "2023 - 2023",
         role: "Android Developer Intern",
@@ -31,6 +34,7 @@ export const EXPERIENCES = [{
         description: `A software developer intern gains foundational experience by working with front-end technologies (HTML, CSS, JavaScript, React.js), back-end frameworks (Node.js, Express.js, Python), and databases (SQL, NoSQL), while utilizing version control (Git), development tools (VS Code, Postman), and deployment platforms (Heroku), all while enhancing problem-solving skills, communication, and adaptability.`,
         technologies: ["HTML", "CSS", "JS", "Python", "SQL", "Git", "AWS"],
     },
+    */
 ];
 
 export const PROJECTS = [{
