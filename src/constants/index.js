@@ -13,7 +13,7 @@ export const EXPERIENCES = [{
         year: "2024 - 2025",
         role: "Freelancer AI Remote Training and Testing Specialist",
         company: "Outlier",
-        link: "https://app.outlier.ai",
+        link: "https://drive.google.com/file/d/1AUTgI-Z2Ebl9DosK7rDgsVd7EbcY4gB-/view?usp=sharing",
         description: `As a Freelance AI Remote Training and Testing Specialist at Outlier, I delivered customized, data-driven AI solutions that aligned with client objectives, consistently meeting deadlines and surpassing quality benchmarks. I spearheaded the development and enhancement of AI models, implementing advanced training and testing strategies to achieve superior accuracy and performance, ultimately providing clients with highly reliable and efficient AI-driven insights.`,
         technologies: ["Java", "C++", "JavaScript"],
     },
