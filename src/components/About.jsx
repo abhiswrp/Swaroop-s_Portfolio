@@ -18,7 +18,7 @@ const About = () => {
           whileInView={{ opacity: 1, x: 0, width: 500 }}
           initial={{ opacity: 0, x: -100, width: 500 }}
           transition={{ duration: 0.5 }}
-          className="w-full lg:w-7/12"
+          className="w-full lg:w-5/12 lg:pl-8"
         >
           <div className="flex items-center justify-center">
             <img className="rounded-2xl w-3/4 max-w-md lg:max-w-lg" src={aboutImg} alt="about" />
@@ -31,7 +31,7 @@ const About = () => {
           className="w-full lg:w-5/12 lg:pl-8"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6 text-justify">
+            <p className="my-2 max-w-xl text-justify">
               <br />
               {ABOUT_TEXT}
             </p>
