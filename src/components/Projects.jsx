@@ -35,7 +35,7 @@ const Projects = () => {
                                 <FaExternalLinkAlt className="ml-2 text-neutral-500" />
                             </a>
                         </h6>
-                        <p className="mb-4 text-neutral-400">{project.description}</p>
+                        <p className="mb-4 text-neutral-400 text-justify">{project.description}</p>
                         {project.technologies.map((tech, index) => (
                             <span
                                 key={index}
