@@ -17,9 +17,9 @@ const Experience = () => {
               initial={{opacity: 0, x: -100}}
               transition={{duration: 1}}
               className="w-full lg:w-1/4">
-              <div>
-                <p className="image">{experience.image}</p>
-                <p className="mb-2 text-sm text-neutral-400 mt-2">{experience.year}</p>
+              <div className="flex flex-col items-start">
+                <img className="w-75 h-40 object-cover rounded-lg"src={experience.image} alt="Outlier"/>
+                <p className="mt-2 text-sm text-neutral-400 items-center">{experience.year}</p>
               </div>
             </motion.div>
             <motion.div
